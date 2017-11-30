@@ -8,7 +8,8 @@ fn truth() {
 // Likewise, two unequal values will return false when compared with ==
 #[test]
 fn falsehood() {
-    assert!(true == true);
+    let result = true == false;
+    assert!(result == false)
 }
 
 // Strings can also be compared and will return a boolean
